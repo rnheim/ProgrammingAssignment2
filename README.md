@@ -25,6 +25,7 @@ really a list containing a function to
 3.  set the value of the matrix inverse
 4.  get the value of the matrix inverse
 
+<!-- -->
 makeCacheMatrix <- function(x = matrix()) {
       m <- NULL
       set <- function(y) {
