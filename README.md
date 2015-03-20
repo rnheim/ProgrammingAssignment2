@@ -25,7 +25,7 @@ really a list containing a function to
 3.  set the value of the matrix inverse
 4.  get the value of the matrix inverse
 
-<!-- -->
+````
 makeCacheMatrix <- function(x = matrix()) {
       m <- NULL
       set <- function(y) {
@@ -39,6 +39,7 @@ makeCacheMatrix <- function(x = matrix()) {
            set_inv = set_inv,
            get_inv = get_inv)
 }
+````
 
 The following function solves for the inverse of the special "matrix"
 created with the above function. However, it first checks to see if the
@@ -47,6 +48,7 @@ cache and skips the computation. Otherwise, it solves for the inverse of
 the input matrix and sets the value in the cache via the `set_inv`
 function.
 
+````
 cacheSolve<- function(x, ...) {
       m <- x$get_inv()
       if(!is.null(m)) {
@@ -61,6 +63,7 @@ cacheSolve<- function(x, ...) {
       return(m)
 
 }
+````
 
 ##Example 
 
