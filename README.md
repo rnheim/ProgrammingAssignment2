@@ -103,7 +103,7 @@ get inverse of my_matrix (to check results of function):
 [3,]   -1    0    1
 ````
 
-###Source the Code Conatining the Two Functions.
+###Source the Code Containing the Two Functions.
 
 ````
 > source('C:/Users/Robin/ProgrammingAssignment2/cachematrix.R')
