@@ -70,32 +70,42 @@ cacheSolve<- function(x, ...) {
 ###Create an Input Matrix
 
 Create a vector called my_matrix:
+````
 my_matrix <- c(1, 1, 1, 3, 4, 3, 3, 3, 4)
+````
 
 Dimension my_matrix as a 3x3 matrix
 
+````
 dim(my_matrix) <- c(3,3)
+````
 
 check the matrix:
 
+````
 >my_matrix
      [,1] [,2] [,3]
 [1,]    1    3    3
 [2,]    1    4    3
 [3,]    1    3    4
+````
 
 
 get inverse of my_matrix (to check results of function):
 
+````
 >solve(my_matrix)
      [,1] [,2] [,3]
 [1,]    7   -3   -3
 [2,]   -1    1    0
 [3,]   -1    0    1
+````
 
 ###Source the Code Conatining the Two Functions.
 
+````
 > source('C:/Users/Robin/ProgrammingAssignment2/cachematrix.R')
+````
 
 ###Call Cache Function.
 
@@ -103,8 +113,10 @@ get inverse of my_matrix (to check results of function):
 
 ###Call Return Solve Function.
 
+````
 cacheSolve(mat)
      [,1] [,2] [,3]
 [1,]    7   -3   -3
 [2,]   -1    1    0
 [3,]   -1    0    1
+````
