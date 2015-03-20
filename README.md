@@ -5,6 +5,8 @@ was forked to complete this assignment.
 
 https://github.com/rdpeng/ProgrammingAssignment2](https://github.com/rdpeng/ProgrammingAssignment2
 
+The original markdown file for the assignment was copied to Original.md located in this repository.
+
 This set of functions take an input matrix, invert it and store the results
 in a cached environment (an environment that is different from the current
 one). The cache is then checked for the results of the inverted matrix before
@@ -109,7 +111,9 @@ get inverse of my_matrix (to check results of function):
 
 ###Call Cache Function.
 
+````
 > mat <- makeCacheMatrix(my_matrix)
+````
 
 ###Call Return Solve Function.
 
